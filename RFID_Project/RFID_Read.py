@@ -9,3 +9,6 @@ def rfid(): #read RFID Data
     RFID_Data = RFID_Data.decode()  
     RFID_Data = RFID_Data.strip() 
     return(RFID_Data)
+
+if __name__ =="__main__":
+    rfid()
