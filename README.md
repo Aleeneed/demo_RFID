@@ -1,3 +1,3 @@
 #RFID DEMO
 
-感恩大大 謝謝大大
+Record my RFID code,
