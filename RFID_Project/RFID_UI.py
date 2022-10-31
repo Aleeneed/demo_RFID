@@ -13,9 +13,8 @@ def UI():
     menu = tk.Menu(window)
     window.config(menu=menu)
     menu2 = tk.Menu(menu,tearoff=0)
-    menu2.add_command(label='開啟打卡模式',command=upload_data)
-    menu2.add_command(label='開啟卡片資料庫')
     menu2.add_command(label='新增卡片',command=append_card)
+    menu2.add_command(label='輸出')
     menu.add_cascade(label='功能',menu=menu2)
 
 
@@ -40,7 +39,8 @@ def append_card():
     #messagebox.showinfo('Test','hahahaha')
 #def chack_name():
 
-UI()
+if __name__=="__main__":
+    UI()
 
 
 window.mainloop()
